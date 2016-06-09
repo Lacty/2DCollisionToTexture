@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		310883ED8CEB4ED58360D96B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DECDFBAE30E542998F1F8827 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CC4F2B7748A3478BB6E4BC7D /* CMake Rules */,
+			);
+			dependencies = (
+				A622ED1B36444A1999F311FC /* PBXTargetDependency */,
+				4B578CCDC5B34787A371FBC6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		579F6EA05E184CDABBD36D07 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9CB81DD713F42A183E2CEA6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CCA30900B5B345D793602C71 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		18D08464B84742CCAB4F5B52 /* /Users/yanai/Desktop/2DCollisionToTexture/src/main.cpp */ = {isa = PBXBuildFile; fileRef = CB6DA5CA1C5B463F862D50B3 /* /Users/yanai/Desktop/2DCollisionToTexture/src/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		377F1E5A5C174898AA0182D1 /* /Users/yanai/Desktop/2DCollisionToTexture/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B275ACD8AE3C4E33AB9C9AA7 /* /Users/yanai/Desktop/2DCollisionToTexture/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4D6B7C980EBC495BB06F2810 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		59EE6BBE57CA4CB5A87BF5AE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		672E64455FAB4C0B96FF6AB1 = {
+			isa = PBXBuildStyle;
+		};
+		D6CDB3FD36EF439AB51049CE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E0BFE30EF2F64FD5B55F416D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6BA5C08E9646F9A116039A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BFAD904C2946AEAC70CFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579F6EA05E184CDABBD36D07;
+			remoteInfo = ZERO_CHECK;
+		};
+		91C5BB5AB49D4DE3BB14E240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BFAD904C2946AEAC70CFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579F6EA05E184CDABBD36D07;
+			remoteInfo = ZERO_CHECK;
+		};
+		9930EC03EE9949DFB4CDA926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99BFAD904C2946AEAC70CFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B662E6A6DAD7429790DC5450;
+			remoteInfo = 2DCollisionToTexture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239B3ADE533445EF9E152B37 /* /Users/yanai/Desktop/2DCollisionToTexture/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4CCFAE48F62445428389A2FF /* /Users/yanai/Desktop/2DCollisionToTexture/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8607727AFD2147B1959D6AD9 /* 2DCollisionToTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 2DCollisionToTexture; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		B275ACD8AE3C4E33AB9C9AA7 /* /Users/yanai/Desktop/2DCollisionToTexture/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CB6DA5CA1C5B463F862D50B3 /* /Users/yanai/Desktop/2DCollisionToTexture/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AB36F2231AD4696A8765623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8607727AFD2147B1959D6AD9 /* 2DCollisionToTexture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F969E5748B54F8BB4B3A902 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		235FE9999CE4402CB0157E87 /* 2DCollisionToTexture */ = {
+			isa = PBXGroup;
+			children = (
+				CC9BB73D64764DCCB776BDAC /* Source Files */,
+				B275ACD8AE3C4E33AB9C9AA7 /* /Users/yanai/Desktop/2DCollisionToTexture/src/CMakeLists.txt */,
+			);
+			name = 2DCollisionToTexture;
+			sourceTree = "<group>";
+		};
+		28CE441C556A446AB690CA29 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		295984DB79984DD4AB26E656 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BCE75E96F4E968F26647F /* ZERO_CHECK */,
+				B6F861BD826A4581BA60B368 /* ALL_BUILD */,
+				235FE9999CE4402CB0157E87 /* 2DCollisionToTexture */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3B7BCE75E96F4E968F26647F /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1F969E5748B54F8BB4B3A902 /* CMake Rules */,
+				239B3ADE533445EF9E152B37 /* /Users/yanai/Desktop/2DCollisionToTexture/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		50FF1B1C0D5D4B3B83F80197 = {
+			isa = PBXGroup;
+			children = (
+				295984DB79984DD4AB26E656 /* Sources */,
+				F1C513E34C0343B896BAE517 /* Resources */,
+				1AB36F2231AD4696A8765623 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6F861BD826A4581BA60B368 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				28CE441C556A446AB690CA29 /* CMake Rules */,
+				4CCFAE48F62445428389A2FF /* /Users/yanai/Desktop/2DCollisionToTexture/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CC9BB73D64764DCCB776BDAC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DA5CA1C5B463F862D50B3 /* /Users/yanai/Desktop/2DCollisionToTexture/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F1C513E34C0343B896BAE517 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B662E6A6DAD7429790DC5450 /* 2DCollisionToTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD5A272EA254A87A0545392 /* Build configuration list for PBXNativeTarget "2DCollisionToTexture" */;
+			buildPhases = (
+				B4A7DACEFD2140739237A775 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E763A5979A749809F1724CB /* PBXTargetDependency */,
+			);
+			name = 2DCollisionToTexture;
+			productName = 2DCollisionToTexture;
+			productReference = 8607727AFD2147B1959D6AD9 /* 2DCollisionToTexture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99BFAD904C2946AEAC70CFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 5EEAD74F7C1541C5BB69A7E7 /* Build configuration list for PBXProject "2DCollisionToTexture" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				59EE6BBE57CA4CB5A87BF5AE /* Debug */,
+				E0BFE30EF2F64FD5B55F416D /* Release */,
+				4D6B7C980EBC495BB06F2810 /* MinSizeRel */,
+				D6CDB3FD36EF439AB51049CE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 50FF1B1C0D5D4B3B83F80197;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				310883ED8CEB4ED58360D96B /* ALL_BUILD */,
+				579F6EA05E184CDABBD36D07 /* ZERO_CHECK */,
+				B662E6A6DAD7429790DC5450 /* 2DCollisionToTexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		574A5BFD074A4E46A33AEB64 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		881A4ECDAAAF42D380701D19 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CC4F2B7748A3478BB6E4BC7D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yanai/Desktop/2DCollisionToTexture/xcode -f /Users/yanai/Desktop/2DCollisionToTexture/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CCA30900B5B345D793602C71 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yanai/Desktop/2DCollisionToTexture/xcode -f /Users/yanai/Desktop/2DCollisionToTexture/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A7DACEFD2140739237A775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D08464B84742CCAB4F5B52 /* /Users/yanai/Desktop/2DCollisionToTexture/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B578CCDC5B34787A371FBC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579F6EA05E184CDABBD36D07 /* ZERO_CHECK */;
+			targetProxy = 1A6BA5C08E9646F9A116039A /* PBXContainerItemProxy */;
+		};
+		7E763A5979A749809F1724CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579F6EA05E184CDABBD36D07 /* ZERO_CHECK */;
+			targetProxy = 91C5BB5AB49D4DE3BB14E240 /* PBXContainerItemProxy */;
+		};
+		A622ED1B36444A1999F311FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B662E6A6DAD7429790DC5450 /* 2DCollisionToTexture */;
+			targetProxy = 9930EC03EE9949DFB4CDA926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33B2C8910DDB408C9084013A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		33E9D54A07EE40CB85790638 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		412B101ABE2640ADA5AF6A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4900402C94244D48B2812BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/build;
+			};
+			name = Debug;
+		};
+		4BA713FAA703466CB7C24D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		62CF0EE0176E4EE2B1BB0D25 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		655FB87D0719422DAE416153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yanai/Desktop/2DCollisionToTexture/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++14";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/yanai/Desktop/2DCollisionToTexture/lib/libglfw3.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 2DCollisionToTexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6E9F37D69F754372A73E48F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		70885C791CCE4B46AFEF153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yanai/Desktop/2DCollisionToTexture/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -std=c++14";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/yanai/Desktop/2DCollisionToTexture/lib/libglfw3.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 2DCollisionToTexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8FC27F68424F4C41BCABA283 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		914B6241B4354E68A41EDBE7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		94036C5BDC364ADC993DF1CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yanai/Desktop/2DCollisionToTexture/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -std=c++14";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/yanai/Desktop/2DCollisionToTexture/lib/libglfw3.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 2DCollisionToTexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		A749C71D64E54227AC9578BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yanai/Desktop/2DCollisionToTexture/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++14";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/yanai/Desktop/2DCollisionToTexture/lib/libglfw3.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 2DCollisionToTexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		BA77ADEA02404D479E26D617 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		DE39EF625FDD4426945CD504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/build;
+			};
+			name = Release;
+		};
+		EF5E0E8AE62B4849989E0318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEAD74F7C1541C5BB69A7E7 /* Build configuration list for PBXProject "2DCollisionToTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4900402C94244D48B2812BE7 /* Debug */,
+				DE39EF625FDD4426945CD504 /* Release */,
+				6E9F37D69F754372A73E48F2 /* MinSizeRel */,
+				BA77ADEA02404D479E26D617 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9CB81DD713F42A183E2CEA6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B2C8910DDB408C9084013A /* Debug */,
+				4BA713FAA703466CB7C24D14 /* Release */,
+				33E9D54A07EE40CB85790638 /* MinSizeRel */,
+				8FC27F68424F4C41BCABA283 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCD5A272EA254A87A0545392 /* Build configuration list for PBXNativeTarget "2DCollisionToTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70885C791CCE4B46AFEF153D /* Debug */,
+				655FB87D0719422DAE416153 /* Release */,
+				A749C71D64E54227AC9578BF /* MinSizeRel */,
+				94036C5BDC364ADC993DF1CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DECDFBAE30E542998F1F8827 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5E0E8AE62B4849989E0318 /* Debug */,
+				412B101ABE2640ADA5AF6A22 /* Release */,
+				914B6241B4354E68A41EDBE7 /* MinSizeRel */,
+				62CF0EE0176E4EE2B1BB0D25 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99BFAD904C2946AEAC70CFBC /* Project object */;
+}
