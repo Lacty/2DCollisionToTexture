@@ -2,6 +2,7 @@
 #pragma once
 
 #include <GLFW/glfw3.h>
+#include "shape.hpp"
 
 
 void drawPoint(float x, float y, float size) {
@@ -40,4 +41,12 @@ void drawLine(float start_x, float start_y,
   glDrawArrays(GL_LINES, 0, 2);
   
   glDisableClientState(GL_VERTEX_ARRAY);
+}
+
+template<typename T>
+void drawRect(const Rect<T>& src) {
+  drawLine(src.l, src.t, src.r, src.t, 1); // top
+  drawLine(src.l, src.t, src.l, src.b, 1); // left
+  drawLine(src.r, src.t, src.r, src.b, 1); // right
+  drawLine(src.l, src.b, src.r, src.b, 1); // bottom
 }

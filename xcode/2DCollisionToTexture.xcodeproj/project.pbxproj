@@ -68,6 +68,9 @@
 		ACAB6F9D1D0961AE00AF5264 /* graphic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = graphic.hpp; path = src/graphic.hpp; sourceTree = "<group>"; };
 		ACAB6F9E1D09690900AF5264 /* collision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = collision.hpp; path = src/collision.hpp; sourceTree = "<group>"; };
 		ACAB6F9F1D0969D600AF5264 /* shape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = shape.hpp; path = src/shape.hpp; sourceTree = "<group>"; };
+		ACAB6FA01D098D1000AF5264 /* texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = texture.hpp; path = src/texture.hpp; sourceTree = "<group>"; };
+		ACAB6FA21D098EDC00AF5264 /* aaa.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaa.raw; sourceTree = "<group>"; };
+		ACAB6FA31D098EDC00AF5264 /* nc40027.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = nc40027.raw; sourceTree = "<group>"; };
 		B275ACD8AE3C4E33AB9C9AA7 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		CB6DA5CA1C5B463F862D50B3 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -110,6 +113,7 @@
 				3B7BCE75E96F4E968F26647F /* ZERO_CHECK */,
 				B6F861BD826A4581BA60B368 /* ALL_BUILD */,
 				235FE9999CE4402CB0157E87 /* 2DCollisionToTexture */,
+				ACAB6FA11D098EDC00AF5264 /* res */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -132,6 +136,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		ACAB6FA11D098EDC00AF5264 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				ACAB6FA21D098EDC00AF5264 /* aaa.raw */,
+				ACAB6FA31D098EDC00AF5264 /* nc40027.raw */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		B6F861BD826A4581BA60B368 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +157,7 @@
 		CC9BB73D64764DCCB776BDAC /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACAB6FA01D098D1000AF5264 /* texture.hpp */,
 				ACAB6F9D1D0961AE00AF5264 /* graphic.hpp */,
 				ACAB6F9E1D09690900AF5264 /* collision.hpp */,
 				ACAB6F9F1D0969D600AF5264 /* shape.hpp */,
@@ -185,6 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = 5EEAD74F7C1541C5BB69A7E7 /* Build configuration list for PBXProject "2DCollisionToTexture" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,6 +352,7 @@
 		4900402C94244D48B2812BE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = /Users/yanai/Desktop/2DCollisionToTexture/xcode/build;
