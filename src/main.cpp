@@ -108,22 +108,10 @@ int main() {
   
   while (!glfwWindowShouldClose(window)) {
     glClear(GL_COLOR_BUFFER_BIT);
-    
     glColor4f(1, 1, 1, 1);
     
     Rect<float> rect(0, 512, 512, 0);
     drawTex(rect);
-    drawRect(rect);
-    
-    for (int y = 0; y < tex_size; y++) {
-      for (int x = 0; x < tex_size; x++) {
-        if (hasAlphaPixBySide[y][x] == 1) {
-          glColor4f(0, 1, 1, 1);
-          drawPoint(x, y, 2);
-        }
-      }
-    }
-    
     
     glfwSwapBuffers(window);
     glfwPollEvents();
