@@ -38,6 +38,7 @@ int main() {
     glClear(GL_COLOR_BUFFER_BIT);
     
     drawPoint(mouse_x, mouse_y, 10);
+    drawLine(0, 0, mouse_x, mouse_y, 1);
     
     glfwSwapBuffers(window);
     glfwPollEvents();

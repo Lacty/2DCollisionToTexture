@@ -66,6 +66,8 @@
 		4CCFAE48F62445428389A2FF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		8607727AFD2147B1959D6AD9 /* 2DCollisionToTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 2DCollisionToTexture; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAB6F9D1D0961AE00AF5264 /* graphic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = graphic.hpp; path = src/graphic.hpp; sourceTree = "<group>"; };
+		ACAB6F9E1D09690900AF5264 /* collision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = collision.hpp; path = src/collision.hpp; sourceTree = "<group>"; };
+		ACAB6F9F1D0969D600AF5264 /* shape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = shape.hpp; path = src/shape.hpp; sourceTree = "<group>"; };
 		B275ACD8AE3C4E33AB9C9AA7 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		CB6DA5CA1C5B463F862D50B3 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -143,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				ACAB6F9D1D0961AE00AF5264 /* graphic.hpp */,
+				ACAB6F9E1D09690900AF5264 /* collision.hpp */,
+				ACAB6F9F1D0969D600AF5264 /* shape.hpp */,
 				CB6DA5CA1C5B463F862D50B3 /* main.cpp */,
 			);
 			name = "Source Files";
