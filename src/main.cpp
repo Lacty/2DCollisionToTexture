@@ -11,8 +11,8 @@
 
 
 // window size
-static int window_w  = 640;
-static int window_h = 480;
+static int window_w = 640;
+static int window_h = 640;
 
 // mouse posision
 static double mouse_x = 0;
@@ -62,12 +62,68 @@ int main() {
     return EXIT_FAILURE;
   }
   
+  int tex_size = std::sqrt(tex_buf.size() / 4);
+  int hasAlphaPixBySide[tex_size][tex_size];
+  std::fill(hasAlphaPixBySide[0], hasAlphaPixBySide[tex_size], tex_size * tex_size);
+  
+  
+  int index = 0;
+  for (int y = 0; y < tex_size; y++) {
+    for (int x = 0; x < tex_size; x++) {
+      // Alpha値の有るPixか調べる
+      // Alpha値があれば通過
+      if (!(int)(unsigned char)tex_buf[index + 3]) {
+        index += 4;
+        continue;
+      }
+      
+      // 画面はじか調べる
+      if ((!y || (y == tex_size - 1)) ||
+          (!x || (x == tex_size - 1))) {
+        
+        hasAlphaPixBySide[y][x] = 1;
+        index += 4;
+        continue;
+      }
+      
+      // 左右
+      if ((int)(unsigned char)tex_buf[index - 1] <= 5) {
+        hasAlphaPixBySide[y][x] = 1;
+      }
+      if ((int)(unsigned char)tex_buf[index + 7] <= 5) {
+        hasAlphaPixBySide[y][x] = 1;
+      }
+      
+      // 上下
+      if ((int)(unsigned char)tex_buf[index + 3 - (512 * 4)] <= 5) {
+        hasAlphaPixBySide[y][x] = 1;
+      }
+      if ((int)(unsigned char)tex_buf[index + 3 + (512 * 4)] <= 5) {
+        hasAlphaPixBySide[y][x] = 1;
+      }
+      
+      index += 4;
+    }
+  }
+  
   while (!glfwWindowShouldClose(window)) {
     glClear(GL_COLOR_BUFFER_BIT);
     
-    Rect<float> rect(0, 256, 256, 0);
+    glColor4f(1, 1, 1, 1);
+    
+    Rect<float> rect(0, 512, 512, 0);
     drawTex(rect);
     drawRect(rect);
+    
+    for (int y = 0; y < tex_size; y++) {
+      for (int x = 0; x < tex_size; x++) {
+        if (hasAlphaPixBySide[y][x] == 1) {
+          glColor4f(0, 1, 1, 1);
+          drawPoint(x, y, 2);
+        }
+      }
+    }
+    
     
     glfwSwapBuffers(window);
     glfwPollEvents();
